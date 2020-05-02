@@ -1,7 +1,5 @@
 #!/bin/bash
-cd ..
-cd ..
-echo $PWD
+cd /home/slink7576/hosting
 cd discord-bot
 git pull
 npm install
