@@ -11,7 +11,7 @@ app.post('/', (req, res) => {
 
     res.status(200);
 
-    shell.exec(`./scripts/${req.body.repository.name}.sh`);
+    shell.exec(`./scripts/${req.body.repository.name}-deploy.sh`);
 });
 
 const server = app.listen(port, function () {
