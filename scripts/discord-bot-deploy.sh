@@ -1,6 +1,7 @@
 #!/bin/bash
 cd ..
 cd ..
+echo $PWD
 cd discord-bot
 git pull
 npm install
